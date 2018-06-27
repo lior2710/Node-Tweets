@@ -1,0 +1,50 @@
+[
+    {
+        "post_id": "931",
+        "username": "@like-user",
+        "timestamp": "1/1/2018 00:00:00",
+        "type": "1"
+    },
+    {
+        "post_id": "931",
+        "username": "@retweet-user",
+        "timestamp": "1/1/2018 00:00:00",
+        "type": "2"
+    },
+    {
+        "post_id": "932",
+        "username": "@like-user",
+        "timestamp": "1/1/2018 00:00:00",
+        "type": "1"
+    },
+    {
+        "post_id": "932",
+        "username": "@retweet-user",
+        "timestamp": "1/1/2018 00:00:00",
+        "type": "2"
+    },
+    {
+        "post_id": "933",
+        "username": "@like-user",
+        "timestamp": "1/1/2018 00:00:00",
+        "type": "1"
+    },
+    {
+        "post_id": "933",
+        "username": "@retweet-user",
+        "timestamp": "1/1/2018 00:00:00",
+        "type": "2"
+    },
+    {
+        "post_id": "934",
+        "username": "@like-user",
+        "timestamp": "1/1/2018 00:00:00",
+        "type": "1"
+    },
+    {
+        "post_id": "934",
+        "username": "@retweet-user",
+        "timestamp": "1/1/2018 00:00:00",
+        "type": "2"
+    }
+]

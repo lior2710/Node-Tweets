@@ -1,0 +1,143 @@
+{
+	"info": {
+		"name": "NodeTweets",
+		"_postman_id": "b7ecd955-b482-7e7f-60e2-b1346f2999f8",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Tweets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/api/tweets",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tweets"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get All ReTweets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/api/tweets",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tweets"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Create Tweet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"content\": \"this is a new posted tweet\",\n\t\"username\": \"@other-user\"\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/api/tweets",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tweets"
+					]
+				},
+				"description": "get all tweets"
+			},
+			"response": []
+		},
+		{
+			"name": "Like Tweet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"@other-user\"\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/api/tweets/2/like",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tweets",
+						"2",
+						"like"
+					]
+				},
+				"description": "get all tweets"
+			},
+			"response": []
+		},
+		{
+			"name": "ReTweet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"@other-user\"\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/api/tweets/2/retweet",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tweets",
+						"2",
+						"retweet"
+					]
+				},
+				"description": "get all tweets"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "id": "931",
+        "username": "@tweet-user",
+        "text_content": "This is Tweet number #1",
+        "timestamp": "1/1/2018 00:00:00"
+    },
+    {
+        "id": "932",
+        "username": "@tweet-user",
+        "text_content": "This is Tweet number #2",
+        "timestamp": "1/1/2018 00:00:00"
+    },
+    {
+        "id": "933",
+        "username": "@tweet-user",
+        "text_content": "This is Tweet number #3",
+        "timestamp": "1/1/2018 00:00:00"
+    },
+    {
+        "id": "934",
+        "username": "@tweet-user",
+        "text_content": "This is Tweet number #4",
+        "timestamp": "1/1/2018 00:00:00"
+    }
+]
